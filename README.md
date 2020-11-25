@@ -14,7 +14,7 @@ A la hora del commit inicial, la subida está tal cual se acaba el curso. Faltar
 
 Falta verificar los mensajes de la interfaz de usuarios en pantallas pequeñas y un pequeño bug en los saltos.
 
-###Mi primer videojuego 3D
+### Mi primer videojuego 3D
 
 Pertenece al mismo curso que el anterior salvo que esta realizado en 3D, usando Unity 5.
 
