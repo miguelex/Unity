@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dddfc92-fff2-461f-98f6-edde659ed528" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI_Coin.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI_Time.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI_Radar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI_Countdown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jjJrnqgivuaFsalS8ObnG1tJgq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dddfc92-fff2-461f-98f6-edde659ed528" name="Default Changelist" comment="" />
+      <created>1604311778603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604311778603</updated>
+      <workItem from="1604311791356" duration="2477000" />
+      <workItem from="1604319126856" duration="1946000" />
+      <workItem from="1605550713894" duration="2714000" />
+      <workItem from="1605637742929" duration="3392000" />
+      <workItem from="1605724111084" duration="1624000" />
+      <workItem from="1605811780938" duration="905000" />
+      <workItem from="1605891815613" duration="7282000" />
+      <workItem from="1605952653216" duration="3749000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="445" key="SwitcherDM" timestamp="1605640449413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1605640449413" />
+    <state x="841" y="206" key="run.anything.popup" timestamp="1605725204936">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="841" y="206" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605725204936" />
+  </component>
+</project>
