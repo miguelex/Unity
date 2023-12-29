@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASINCO Asesoría y Gestoría Onlina</title>
+    <!--<link href="/css/styles.css" rel="stylesheet">-->
+	<link href="http://appcomeaqui.net/webAsinco/css/styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"> 
+    <!-- Estilos propios-->
+    <style>
+        .link-underline {
+            border-bottom-width: 0;
+            background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+            background-size: 0 3px;
+            background-position: 0 100%;
+            background-repeat: no-repeat;
+            transition: background-size .3s ease-in-out;
+        }
+    
+        .link-underline-black {
+            background-image: linear-gradient(transparent, transparent), linear-gradient(#00E0CA, #00E0CA)
+        }
+    
+        .link-underline:hover {
+            background-size: 100% 3px;
+            background-position: 0 100%
+        }
+    </style>
+</head>
+<body>
+	<div class = "relative z-10">
+		<!-- Comienzo Navbar-->
+		<nav class="bg-asinconava shadow-lg absolute z-20 w-full">
+			<div class="max-w-6xl mx-auto px-4">
+				<div class="flex justify-between">
+					<div class="flex space-x-7">
+						<div>
+							<!-- Logo -->
+							<a href="#" class="flex items-center py-4 px-2">
+								<img src="img/LOGOTIPO.png" alt="Logo" class="h-12 w-40 mr-4">	
+							</a>
+						</div>
+						<!-- Items del menú principal -->
+						<div class="hidden md:flex items-center space-x-1 font-roboto">
+							<a href="" class="px-2 text-white font-semibold link link-underline link-underline-black">Admisión</a>
+							<a href="" class="px-2 text-white font-semibold link link-underline link-underline-black">Soluciones</a>
+							<a href="" class="px-2 text-white font-semibold link link-underline link-underline-black">Contacto</a>
+							<a href="" class="px-2 text-white font-semibold link link-underline link-underline-black">Consulta</a>
+							<a href="" class="px-2 text-white font-semibold link link-underline link-underline-black">Explora Asinco</a>
+						</div>
+					</div>
+					<!-- Items para el menú de login -->
+					<div class="hidden md:flex items-center space-x-3 ">
+						<a href="" class="py-2 px-2 font-medium outline outline-offset-2 outline-1 text-white bg-asinco rounded hover:bg-white hover:text-asinco transition duration-300">Login</a>
+						<!--!  Botón verde hover:bg-verde -->
+					</div>
+					<!-- Mobile menu button -->
+					<div class="md:hidden flex items-center">
+						<button class="outline-none mobile-menu-button">
+						<svg class=" w-6 h-6 text-white hover:text-orange-700 "
+							x-show="!showMenu"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+					</div>
+				</div>
+			</div>
+			<!-- Menú para móviles -->
+			<div class="hidden mobile-menu font-roboto">
+				<ul class="">
+					<li class="active"><a href="index.html" class="block text-sm px-2 py-2 text-white font-semibold  link link-underline link-underline-black">Admisión</a></li>
+					<li><a href="#services" class="block text-sm px-2 py-2 link link-underline text-white font-semibold link-underline-black">Soluciones</a></li>
+					<li><a href="#about" class="block text-sm px-2 py-2  link link-underline text-white font-semibold link-underline-black">Contacto</a></li>
+					<li><a href="#contact" class="block text-sm px-2 py-2 link link-underline text-white font-semibold link-underline-black">Consulta</a></li>
+					<li><a href="#contact" class="block text-sm px-2 py-2 link link-underline text-white font-semibold link-underline-black">Explora Asinco</a></li>
+				</ul>
+			</div>
+			
+		</nav>
+		<!-- Fin Navbar -->
+		<!-- Comienzo vídeo-->
+		<div class = "aspect-w-3 aspect-h-2 sm:aspect-w-9 sm:aspect-h-5 lg:aspect-w-16 lg:aspect-h-9 ">
+			<video
+				autoplay
+				loop
+				muted
+				class= "absolute z-10 xs:relative brightness-75"
+			>
+			<source
+			src="videos/Premium.mp4"
+			type="video/mp4"
+			/>
+			Your browser does not support the video tag.
+			</video>
+	
+		</div>
+		<!-- Fin vídeo-->
+	</div>	
+</body>
+
+</html>
+
+<!-- Script para desplegar menú en móviles -->
+<script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+</script>
+
