@@ -8,5 +8,5 @@ Cuando lo tome, no tenia ni idea de nada de Unity, pero a pesar de ello no se me
 
 Este curso crea dos proyectos, uno 2D y otro 3D a continuación, dejo los enlaces a los mismos:
 
-- Chuche (2D)
-- Buscador de monedas (3D)
+- [Chuche (2D)](https://github.com/miguelex/Unity/tree/main/Aprende%20C%23%20creando%20un%20videojuego%20desde%20cero%20con%20Unity/PrimerJuego)
+- [Buscador de monedas (3D)](https://github.com/miguelex/Unity/tree/main/Aprende%20C%23%20creando%20un%20videojuego%20desde%20cero%20con%20Unity/Mi%20primer%20juego%203d)
