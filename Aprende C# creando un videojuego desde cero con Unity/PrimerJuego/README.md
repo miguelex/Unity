@@ -6,5 +6,6 @@ A la hora del commit inicial, la subida está tal cual se acaba el curso. Faltar
 
 Falta verificar los mensajes de la interfaz de usuarios en pantallas pequeñas y un pequeño bug en los saltos.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q-js2r4_9cM?si=Twgbcm4yKzX8l7z_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Chuche](https://img.youtube.com/vi/wgbcm4yKzX8l7z_/0.jpg)](https://www.youtube.com/watch?v=wgbcm4yKzX8l7z_)
+
 
