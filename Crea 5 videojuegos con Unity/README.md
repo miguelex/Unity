@@ -6,8 +6,8 @@ Tendremos una introducción a la IA en el mundo de los videojuegos y una aproxim
 
 ## Proyectos
 
-- Coin Collector (proyecto 3D)
-- Space Wars (shooter 2D)
-- Dark Raider (aventura 2D)
+- [Coin Collector (proyecto 3D)](https://github.com/miguelex/Unity/tree/main/Crea%205%20videojuegos%20con%20Unity/CoinsCollector)
+- [Space Wars (shooter 2D)](https://github.com/miguelex/Unity/tree/main/Crea%205%20videojuegos%20con%20Unity/Space%20Wars)
+- [Dark Raider (aventura 2D)](https://github.com/miguelex/Unity/tree/main/Crea%205%20videojuegos%20con%20Unity/Dark%20Raider)
 - IA
 - Generación de contenido procedural
