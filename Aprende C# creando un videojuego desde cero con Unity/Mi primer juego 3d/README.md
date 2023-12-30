@@ -5,3 +5,7 @@ En este juego, nos moveremos por un entorno 3D en busca de monedas de oro, plata
 El commit inicial es totalmente funcional, aunque las horas nocturnas igual son muy oscuras. Como mejora se podría intentar que las posiciones de las monedas sean aleatorias, teniendo en cuenta la orografía del mundo.
 
 Seria interesante retocar la orografía ya que a veces es abrupta.
+
+## Vídeo en youtube del gameplay
+
+[![Chuche](https://img.youtube.com/vi/C_rbngpJmQc/0.jpg)](https://www.youtube.com/watch?v=C_rbngpJmQc)
