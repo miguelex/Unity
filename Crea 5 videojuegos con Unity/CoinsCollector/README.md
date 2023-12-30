@@ -6,4 +6,4 @@ Aprenderemos los conceptos más fundamentales asi como el uso de assets como el 
 
 ## Vídeo del juego
 
-[![Chuche](https://img.youtube.com/vi/TRLlzVJbPhQ/0.jpg)](https://www.youtube.com/watch?v=TRLlzVJbPhQ)
+[![Coins Collector](https://img.youtube.com/vi/TRLlzVJbPhQ/0.jpg)](https://www.youtube.com/watch?v=TRLlzVJbPhQ)
