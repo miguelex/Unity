@@ -17,37 +17,47 @@ public class PacmanMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        // Calculamos el nuevo punto donde hay que ir en base a la variable destino
-        Vector2 newPos = Vector2.MoveTowards(this.transform.position, destination, speed);
-        
-        //usamos  el rigidbody para transportar a Pacman a dicha posición
-        GetComponent<Rigidbody2D>().MovePosition(newPos);
-
-        float distanceToDestination = Vector2.Distance((Vector2)this.transform.position, destination);
-
-        if (distanceToDestination < 2.0f)
+        if (GameManager.sharedInstance.gameStarted && !GameManager.sharedInstance.gamePaused)
         {
-            if (Input.GetKey(KeyCode.UpArrow) && CanMoveTo(Vector2.up))
+            GetComponent<AudioSource>().volume = 0.5f;
+            
+            // Calculamos el nuevo punto donde hay que ir en base a la variable destino
+            Vector2 newPos = Vector2.MoveTowards(this.transform.position, destination, speed*Time.deltaTime);
+        
+            //usamos  el rigidbody para transportar a Pacman a dicha posición
+            GetComponent<Rigidbody2D>().MovePosition(newPos);
+
+            float distanceToDestination = Vector2.Distance((Vector2)this.transform.position, destination);
+
+            if (distanceToDestination < 2.0f)
             {
-                destination = (Vector2)this.transform.position + Vector2.up;
+                if (Input.GetKey(KeyCode.UpArrow) && CanMoveTo(Vector2.up))
+                {
+                    destination = (Vector2)this.transform.position + Vector2.up;
+                }
+                if (Input.GetKey(KeyCode.DownArrow) && CanMoveTo(Vector2.down))
+                {
+                    destination = (Vector2)this.transform.position + Vector2.down;
+                }
+                if (Input.GetKey(KeyCode.LeftArrow) && CanMoveTo(Vector2.left))
+                {
+                    destination = (Vector2)this.transform.position + Vector2.left;
+                }
+                if (Input.GetKey(KeyCode.RightArrow) && CanMoveTo(Vector2.right))
+                {
+                    destination = (Vector2)this.transform.position + Vector2.right;
+                }
             }
-            if (Input.GetKey(KeyCode.DownArrow) && CanMoveTo(Vector2.down))
-            {
-                destination = (Vector2)this.transform.position + Vector2.down;
-            }
-            if (Input.GetKey(KeyCode.LeftArrow) && CanMoveTo(Vector2.left))
-            {
-                destination = (Vector2)this.transform.position + Vector2.left;
-            }
-            if (Input.GetKey(KeyCode.RightArrow) && CanMoveTo(Vector2.right))
-            {
-                destination = (Vector2)this.transform.position + Vector2.right;
-            }
+
+            Vector2 dir = destination - (Vector2)this.transform.position;
+            GetComponent<Animator>().SetFloat("DirX", dir.x);
+            GetComponent<Animator>().SetFloat("DirY", dir.y);
+        }
+        else
+        {
+            GetComponent<AudioSource>().volume = 0.0f;
         }
 
-        Vector2 dir = destination - (Vector2)this.transform.position;
-        GetComponent<Animator>().SetFloat("DirX", dir.x);
-        GetComponent<Animator>().SetFloat("DirY", dir.y);
     }
 
     //Dada una posible direccio nde movimiento devuelve true si es posible moverse en esa direccion
