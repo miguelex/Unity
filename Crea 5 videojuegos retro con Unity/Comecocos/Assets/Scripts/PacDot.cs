@@ -8,6 +8,7 @@ public class PacDot : MonoBehaviour
     {
         if (otherCollider.tag == "Pacman")
         {
+            UIManager.sharedInstance.ScorePoint(100);
             Destroy(this.gameObject);
         }
     }

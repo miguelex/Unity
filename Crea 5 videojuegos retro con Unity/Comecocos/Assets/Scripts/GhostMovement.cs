@@ -9,6 +9,17 @@ public class GhostMovement : MonoBehaviour
 
     public float speed = 0.3f;
 
+    private void Update()
+    {
+        if(GameManager.sharedInstance.invicibleTime > 0)
+        {
+            GetComponent<SpriteRenderer>().color = Color.blue;
+        } else
+        {
+            GetComponent<SpriteRenderer>().color = Color.white;
+        }
+    }
+
     void FixedUpdate()
     {
         if (GameManager.sharedInstance.gameStarted && !GameManager.sharedInstance.gamePaused)

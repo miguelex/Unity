@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public bool gameStarted = false;
     public bool gamePaused = false;
 
+    public float invicibleTime = 0.0f;
+
     public AudioClip pauseAudio;
     
     void Awake()
@@ -34,8 +36,13 @@ public class GameManager : MonoBehaviour
                 StopPauseMusic();
             }
         }
-    }
 
+        if (invicibleTime > 0)
+        {
+            invicibleTime -= Time.deltaTime;
+        }
+    }
+    
     void PlayPauseMusic()
     {
         AudioSource source = GetComponent<AudioSource>();
@@ -53,5 +60,10 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(4.0f);
         gameStarted = true;
+    }
+
+    public void MakeInvicibleFor (float numberOfSeconds)
+    {
+        this.invicibleTime += numberOfSeconds;
     }
 }
