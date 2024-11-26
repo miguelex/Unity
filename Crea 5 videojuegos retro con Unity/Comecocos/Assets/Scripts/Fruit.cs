@@ -8,6 +8,7 @@ public class Fruit : MonoBehaviour
     {
         if (otherCollider.tag == "Pacman")
         {
+            UIManager.sharedInstance.ScorePoint(500);
             GameManager.sharedInstance.MakeInvicibleFor(15.0f);
             Destroy(this.gameObject);
         }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     public float invicibleTime = 0.0f;
 
-    public AudioClip pauseAudio;
+    public AudioClip pauseAudio, startAudio;
     
     void Awake()
     {
@@ -65,5 +66,10 @@ public class GameManager : MonoBehaviour
     public void MakeInvicibleFor (float numberOfSeconds)
     {
         this.invicibleTime += numberOfSeconds;
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 }
